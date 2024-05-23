@@ -12,6 +12,7 @@ Java Development Kit (JDK) installed on your system.
 Any modern web browser Chrome for running automated tests.
 
 Structure
+
 The repository is structured as follows:
 
 src/main/java: Contains the main Java source code for the Selenium framework.
