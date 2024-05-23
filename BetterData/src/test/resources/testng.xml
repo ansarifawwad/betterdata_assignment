@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+
+    <listeners>
+        <listener class-name="org.example.ExtentReports.ExtentReport"/>
+    </listeners>
+    <test name="MyTest">
+        <classes>
+            <class name="AddNewDataSource"/>
+        </classes>
+    </test>
+</suite>
