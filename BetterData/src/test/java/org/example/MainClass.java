@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class MainClass {
 
-    String url = "http://af8d2bdc267e54e139a6ccc817f0a8f6-1149838503.ap-southeast-1.elb.amazonaws.com:8080/betterdata/signin";
+    String url = "https://www.google.co.uk/";
     public static WebDriver driver = new ChromeDriver();
 
     @BeforeSuite

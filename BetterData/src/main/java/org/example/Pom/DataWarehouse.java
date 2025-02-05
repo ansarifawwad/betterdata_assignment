@@ -59,4 +59,10 @@ public class DataWarehouse {
 
     @FindBy(xpath = "//button[@id='menu-list-:rh:-menuitem-:rj:']")
     public WebElement delete;
+
+    @FindBy(id = "APjFqb")
+    public WebElement searchbox;
+
+    @FindBy(xpath = "//div[@class='lJ9FBc']//input[@name='btnK']")
+    public WebElement enter;
 }
